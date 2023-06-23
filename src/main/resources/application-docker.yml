@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://kitchen-genius-postgres:5432/kitchen-genius-db
+    username: admin
+    password: admin
+  jpa:
+    show-sql: false
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
